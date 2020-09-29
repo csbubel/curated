@@ -1,0 +1,38 @@
+import Bookmark from "./models/Bookmark";
+
+const BOOKMARKS = [
+    new Bookmark("The Verge", "https://theverge.com", "technology"),
+    new Bookmark("Engadget", "https://engadget.com", "technology"),
+    new Bookmark("Ars Technica", "https://arstechnica.com", "technology"),
+    new Bookmark("NPR", "https://npr.org", "news"),
+    new Bookmark("Wall Street Journal", "https://wsj.com", "news"),
+    new Bookmark("Reuters", "https://reuters.com", "news"),
+    new Bookmark("DP Review", "https://dpreview.com", "photography"),
+    new Bookmark("Smashing Magazine", "https://smashingmagazine.com", "design"),
+    new Bookmark("The Morning Paper", "https://blog.acolyer.org", "blogs"),
+    new Bookmark("Signal v. Noise", "https://m.signalvnoise.com/", "blogs"),
+    new Bookmark("Nature", "http://nature.com/", "science"),
+    new Bookmark("Scientific American", "https://www.scientificamerican.com/", "science"),
+    new Bookmark("Hacker News", "https://news.ycombinator.com/", "engineering"),
+    new Bookmark("Netflix Tech", "https://medium.com/@NetflixTechBlog", "engineering"),
+    new Bookmark("Mozilla Blog", "https://blog.mozilla.org/", "engineering"),
+    new Bookmark("Atlas Obscura", "https://www.atlasobscura.com/", "culture"),
+    new Bookmark("Prof Galloway", "https://www.profgalloway.com/", "blogs"),
+    new Bookmark("Philly Inquirer", "https://www.inquirer.com/", "news"),
+    new Bookmark("Deep South Ventures", "https://www.deepsouthventures.com/", "blogs"),
+    new Bookmark("NYT Cooking", "https://cooking.nytimes.com/", "food"),
+    new Bookmark("Gates Notes", "https://www.gatesnotes.com/", "blogs"),
+    new Bookmark("JSTOR Daily", "https://daily.jstor.org/", "culture"),
+    new Bookmark("Protocol", "https://www.protocol.com/", "technology"),
+    new Bookmark("FB Engineering", "https://engineering.fb.com/", "engineering"),
+    new Bookmark("The Atlantic", "https://www.theatlantic.com/", "news"),
+    new Bookmark("Smithsonian", "https://www.smithsonianmag.com/", "culture"),
+    new Bookmark("Aeon", "https://aeon.co/", "culture"),
+    new Bookmark("Paul Graham", "http://paulgraham.com/", "engineering"),
+    new Bookmark("Peta Pixel", "https://petapixel.com/", "photography"),
+    new Bookmark("Splendid Table", "https://www.splendidtable.org/", "food"),
+    new Bookmark("Food52", "https://food52.com/", "food"),
+    new Bookmark("Dezeen", "https://www.dezeen.com/", "design"),
+];
+
+export default BOOKMARKS;

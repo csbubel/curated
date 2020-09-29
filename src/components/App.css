@@ -1,0 +1,15 @@
+header {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+}
+
+footer small {
+    cursor: pointer;
+}
