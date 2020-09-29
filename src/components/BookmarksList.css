@@ -1,4 +1,5 @@
 main#list-view {
+    font-family: 'Playfair Display', serif;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
 }
