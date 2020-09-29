@@ -17,7 +17,7 @@ main#list-view section {
   padding: 10px 15px;
 }
 
-main#list-view section ul h3 {
+main#list-view section h3 {
   margin: 0;
   margin-bottom: 7px;
 }

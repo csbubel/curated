@@ -11,7 +11,7 @@ const BookmarksList = ({bookmarks} : BookmarksListProps) => {
     const sections: JSX.Element[] = [];
 
     bookmarks.forEach((categorizedBookmarks, category) => {
-      const section = <section>
+      const section = <section key={category}>
         <h3>{category}</h3>
         <ul>
           {categorizedBookmarks.map((bookmark, idx) => <li key={idx}><a href={bookmark.url} target="_blank" rel="noreferrer noopener">{bookmark.title}</a></li>)}
