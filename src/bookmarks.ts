@@ -33,6 +33,7 @@ const BOOKMARKS = [
     new Bookmark("Splendid Table", "https://www.splendidtable.org/", "food"),
     new Bookmark("Food52", "https://food52.com/", "food"),
     new Bookmark("Dezeen", "https://www.dezeen.com/", "design"),
+    new Bookmark("Golden", "https://www.golden.com/", "science"),
 ];
 
 export default BOOKMARKS;
